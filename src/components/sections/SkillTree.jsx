@@ -35,7 +35,6 @@ export default function SkillTree() {
             transition={{ delay: index * 0.1 }}
             onMouseEnter={() => {
                 setHoveredSkill(skill.id)
-                handleInteraction(skill.id)
             }}
             onMouseLeave={() => setHoveredSkill(null)}
             className={`p-6 rounded-2xl border ${skill.border} ${skill.bg} backdrop-blur-sm cursor-crosshair group relative overflow-hidden flex flex-col items-center text-center`}

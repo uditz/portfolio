@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { ChevronDown } from 'lucide-react'
 import Button from '../ui/Button'
-import resumePDF from '/files/Udit_Resume_developer.pdf';
+
 
 export default function Hero() {
   return (
@@ -28,9 +28,9 @@ export default function Hero() {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href={resumePDF} download="Udit_Resume_developer.pdf">
+          {/* <a href={resumePDF} download="Udit_Resume_developer.pdf">
             <Button variant="primary">Download CV</Button>
-          </a>
+          </a> */}
           <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-600/10">Contact Me</Button>
         </div>
       </motion.div>

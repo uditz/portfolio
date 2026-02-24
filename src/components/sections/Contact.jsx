@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 export default function Contact() {
   return (
-    <section id="contact" className="min-h-screen py-20 px-4 flex flex-col items-center justify-center relative override-hidden bg-black">
+    <section id="contact" className="min-h-screen py-20 px-4 flex flex-col items-center justify-center relative overflow-hidden bg-black">
        {/* Boss Battle Background */}
        <div className="absolute inset-0 bg-red-900/10 radial-gradient" />
        
