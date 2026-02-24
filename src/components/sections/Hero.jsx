@@ -31,7 +31,7 @@ export default function Hero() {
           {/* <a href={resumePDF} download="Udit_Resume_developer.pdf">
             <Button variant="primary">Download CV</Button>
           </a> */}
-          <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-600/10">Contact Me</Button>
+          {/* <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-600/10">Contact Me</Button> */}
         </div>
       </motion.div>
 
